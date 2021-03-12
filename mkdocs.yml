@@ -1,0 +1,28 @@
+site_name: 'safbi-cli'
+site_description:
+  SAfBI Command-Line Interface is a tool to interact with out SAfBI installation. 
+site_author: 'Sergio Tocalini'
+site_url: 'https://safbi.readthedocs.io/projects/safbi-cli'
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+
+repo_name: 'sergiotocalini/safbi-cli'
+repo_url: 'https://github.com/sergiotocalini/safbi-cli'
+
+extra:
+  social:
+    - type: github
+      icon: fontawesome/brands/github-alt
+      link: 'https://github.com/sergiotocalini/safbi-cli'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - meta
